@@ -21,10 +21,11 @@ content: >
   ```
 
 
-  - **condition**: A boolean expression that is evaluated before each iteration.
+  * **condition**: A boolean expression that is evaluated before each iteration.
   If it evaluates to `True`, the loop continues; if `False`, the loop stops.
 
-  - **code block**: The set of statements that will be executed as long as the
+
+  * **code block**: The set of statements that will be executed as long as the
   condition is true.
 
 
@@ -47,13 +48,17 @@ content: >
 
   In this example:
 
-  - The loop starts with `count` set to 1.
 
-  - The condition `count <= 5` is checked before each iteration.
+  * The loop starts with `count` set to 1.
 
-  - The loop prints the current value of `count` and then increments it by 1.
 
-  - The loop stops when `count` becomes 6, as the condition `count <= 5` is no
+  * The condition `count <= 5` is checked before each iteration.
+
+
+  * The loop prints the current value of `count` and then increments it by 1.
+
+
+  * The loop stops when `count` becomes 6, as the condition `count <= 5` is no
   longer true.
 
 
@@ -69,12 +74,14 @@ content: >
   ### Tips
 
 
-  - Use a variable to keep track of the sum of the numbers.
+  * Use a variable to keep track of the sum of the numbers.
 
-  - Use the `input()` function to get user input and `int()` to convert it to an
+
+  * Use the `input()` function to get user input and `int()` to convert it to an
   integer.
 
-  - Remember to update the sum inside the loop.
+
+  * Remember to update the sum inside the loop.
 
 
   ### Challenge
@@ -82,6 +89,11 @@ content: >
 
   Modify your program to also count how many numbers were entered before the
   negative number and print this count along with the sum.
+
+
+  ```
+
+  ```
 
 
   Happy coding!
